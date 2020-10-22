@@ -25,7 +25,7 @@ class LandingPage extends Component {
           <br/>
           <br/>
           <br/>
-          <Button className="loginBtn">Login</Button>
+          <Button className="loginBtn">Get Started</Button>
         </Container>
       </div>
     );
