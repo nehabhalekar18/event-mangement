@@ -1,5 +1,8 @@
 .Header{
     font-size: 32px;
     height: 64px;
-    background-color: blueviolet;
+    background-color: #0e0646;
+    padding: 2%;
+    line-height: 8px;
+    color: #ffffff;
 }
