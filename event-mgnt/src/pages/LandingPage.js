@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 import { Col, Container, Row,Button } from "react-bootstrap";
 import Header from "../components/Header";
 import "./LandingPage.css"
+
 class LandingPage extends Component {
   render() {
     return (
@@ -25,7 +27,9 @@ class LandingPage extends Component {
           <br/>
           <br/>
           <br/>
+          <Link to={"/login"}>
           <Button className="loginBtn">Get Started</Button>
+          </Link>
         </Container>
       </div>
     );
